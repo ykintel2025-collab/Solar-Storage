@@ -56,3 +56,4 @@ document.addEventListener("DOMContentLoaded", () => {
         console.log(`Nieuwe bestelling van ${naam}: ${aantal} x ${besteldProductNaam}`);
     });
 });
+
