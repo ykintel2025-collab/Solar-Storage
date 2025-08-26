@@ -1,9 +1,9 @@
-// Onze productendatabase
+// Onze productendatabase met nieuwe afbeeldingen
 const producten = [
-    { sku: "SKU001", naam: "Laptop", beschrijving: "Een krachtige laptop voor alledaags gebruik.", img: "https://via.placeholder.com/250x150.png?text=Laptop" },
-    { sku: "SKU002", naam: "Toetsenbord", beschrijving: "Ergonomisch toetsenbord met mechanische toetsen.", img: "https://via.placeholder.com/250x150.png?text=Toetsenbord" },
-    { sku: "SKU003", naam: "Muis", beschrijving: "Draadloze muis met instelbare DPI.", img: "https://via.placeholder.com/250x150.png?text=Muis" },
-    { sku: "SKU004", naam: "Monitor", beschrijving: "27-inch 4K-monitor met dunne bezels.", img: "https://via.placeholder.com/250x150.png?text=Monitor" }
+    { sku: "SKU001", naam: "Laptop", beschrijving: "Een krachtige laptop voor alledaags gebruik.", img: "https://images.unsplash.com/photo-1629132514120-d636b2f481c5?q=80&w=200" },
+    { sku: "SKU002", naam: "Toetsenbord", beschrijving: "Ergonomisch toetsenbord met mechanische toetsen.", img: "https://images.unsplash.com/photo-1611078438411-d006612d1b77?q=80&w=200" },
+    { sku: "SKU003", naam: "Muis", beschrijving: "Draadloze muis met instelbare DPI.", img: "https://images.unsplash.com/photo-1615694389332-6a682855f462?q=80&w=200" },
+    { sku: "SKU004", naam: "Monitor", beschrijving: "27-inch 4K-monitor met dunne bezels.", img: "https://images.unsplash.com/photo-1620958197171-460d3d5f8c87?q=80&w=200" }
 ];
 
 document.addEventListener("DOMContentLoaded", () => {
@@ -56,4 +56,3 @@ document.addEventListener("DOMContentLoaded", () => {
         console.log(`Nieuwe bestelling van ${naam}: ${aantal} x ${besteldProductNaam}`);
     });
 });
-
